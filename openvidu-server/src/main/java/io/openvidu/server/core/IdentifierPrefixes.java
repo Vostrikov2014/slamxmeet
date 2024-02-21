@@ -13,5 +13,7 @@ public interface IdentifierPrefixes {
 	public static final String MEDIA_NODE_ID = "media_";
 	public static final String OPENVIDU_NODE_ID = "opv_";
 	public static final String CLUSTER_ID = "clu_";
+	String METRICBEAT_ID = "met_";
+	String FILEBEAT_ID = "fil_";
 
 }
