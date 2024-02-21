@@ -1,0 +1,35 @@
+.settings-container {
+	display: flex;
+	padding: 10px;
+}
+
+.item-menu {
+	padding-right: 5px;
+	border-right: 1px solid var(--ov-secondary-color);
+	width: 170px;
+}
+.item-menu.mobile {
+	width: 50px !important;
+}
+
+.item-content {
+	padding: 16px;
+	flex-grow: 1;
+	width: min-content;
+}
+
+.option {
+	border-radius: var(--ov-panel-radius);
+}
+.lang-container button {
+	width: 100%;
+}
+
+mat-list-option[aria-selected='true'] {
+	background: var(--ov-tertiary-color);
+	font-weight: bold !important;
+	color: var(--ov-panel-background);
+}
+::ng-deep .mat-list-item-content {
+	padding: 5px !important;
+}

@@ -1,0 +1,23 @@
+.local-participant-container,
+.remote-participants-container {
+	margin: 5px 10px;
+}
+
+.scrollable {
+	height: calc(100% - 60px);
+	max-height: calc(100% - 60px);
+	overflow: auto;
+}
+
+.message-container {
+	padding: 5px;
+	background-color: var(--ov-light-color);
+	color: var(--ov-panel-text-color);
+	text-align: center;
+	margin: 5px 5px;
+	font-size: 12px;
+}
+
+.message-container p {
+	margin: 0;
+}
