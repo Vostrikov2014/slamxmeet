@@ -20,7 +20,8 @@
 	<properties>
 
 		<version.spring-boot>2.7.14</version.spring-boot>
-		<version.kurento>7.0.1-SNAPSHOT</version.kurento>
+		<!--<version.kurento>7.0.1-SNAPSHOT</version.kurento>-->
+		<version.kurento>7.0.0</version.kurento>
 		<version.openvidu.java.client>2.29.0</version.openvidu.java.client>
 		<version.openvidu.client>1.1.0</version.openvidu.client>
 		<version.openvidu.test.browsers>1.1.0</version.openvidu.test.browsers>
@@ -96,7 +97,7 @@
 
 			<plugin>
 
-				<!-- Check for the minimum version of Java and Maven. Runs during the 
+				<!-- Check for the minimum version of Java and Maven. Runs during the
 					validate phase. -->
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-enforcer-plugin</artifactId>
@@ -275,5 +276,13 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
+
+	<modules>
+		<module>openvidu-client</module>
+		<module>openvidu-java-client</module>
+		<module>openvidu-server</module>
+		<module>openvidu-test-browsers</module>
+		<module>openvidu-test-e2e</module>
+	</modules>
 
 </project>

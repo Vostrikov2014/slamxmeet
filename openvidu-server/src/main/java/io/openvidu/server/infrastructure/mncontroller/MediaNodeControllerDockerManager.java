@@ -13,6 +13,7 @@ import com.google.gson.GsonBuilder;
 import com.google.gson.JsonObject;
 import io.openvidu.client.OpenViduException;
 import io.openvidu.client.OpenViduException.Code;
+import io.openvidu.java.client.OpenViduException;
 import io.openvidu.server.config.OpenviduBuildInfo;
 import io.openvidu.server.config.DockerRegistryConfig;
 import io.openvidu.server.config.PublicIpAutodiscovery;
